@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RepresentorDetails"
+    android:background="#27e86a"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/representorDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:background="#4C5F6B"
+        android:text="אמייל"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="282dp"
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:background="#57E81A"
+        android:text="שם הסוכן:גל פדידה "
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="282dp" />
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:text="טלפון של נציג "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:background="#191F14"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="282dp" />
+    <TextView
+        android:id="@+id/productExplonation"
+        android:text="אתר עד 5 עמודים בהם ישולבו תמונות ומידע אודות העסק שלך "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:background="#191F14"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/productExplonation2"
+        android:text="לצפיה באתר לדוגמא לחץ כאן"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+      />
+
+
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StepsView"
+
+    android:orientation="vertical"
+    android:layout_gravity="end">
+
+
+    <Button
+        android:id="@+id/first_call"
+        android:layout_marginLeft="300dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#29FFF1"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:text="שיחה עם נציג "
+        android:textColor="#B5B49F"
+        android:textSize="18sp" />
+    <Button
+        android:layout_marginLeft="300dp"
+        android:id="@+id/sending_data"
+        android:text="שליחת חומרים"
+        android:textColor="#B5B49F"
+        android:textSize="18sp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#29FFF1"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        />
+
+    <Button
+        android:id="@+id/website_config"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/sending_data"
+        android:layout_marginLeft="300dp"
+        android:layout_toLeftOf="@+id/sending_data"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#29FFF1"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:text="אפיון אתר "
+        android:textColor="#B5B49F"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/text_work"
+        android:text="עריכת תוכן"
+        android:layout_marginLeft="300dp"
+        android:textColor="#B5B49F"
+        android:layout_toLeftOf="@+id/website_config"
+        android:textSize="18sp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#29FFF1"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        />
+
+    <Button
+        android:layout_marginLeft="300dp"
+        android:id="@+id/design"
+        android:text="עיצוב"
+        android:textColor="#B5B49F"
+        android:layout_toLeftOf="@+id/text_work"
+        android:textSize="18sp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#29FFF1"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        />
+    <Button
+        android:layout_marginLeft="300dp"
+        android:id="@+id/control_quality"
+        android:text="בקרת איכות "
+        android:textColor="#B5B49F"
+        android:layout_toLeftOf="@+id/design"
+        android:textSize="18sp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#29FFF1"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        />
+
+
+
+    <Button
+        android:layout_marginLeft="300dp"
+        android:id="@+id/finished_product"
+        android:layout_toLeftOf="@+id/control_quality"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#29FFF1"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:text="עולים לאוויר"
+        android:textColor="#B5B49F"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
